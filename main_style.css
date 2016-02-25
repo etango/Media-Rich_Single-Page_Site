@@ -53,11 +53,15 @@ Custom css style code for main.html
 */
 
 body{
-    background-image:url(background_test_2.jpg);
-    image-resolution: snap;
+    background-image:url(reef.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    
 }
 #title{
     background-color:black;
+    opacity: .4;
     color:mediumblue;
     text-align: center;
     position: relative;
@@ -65,4 +69,6 @@ body{
     padding-bottom: .5em;
     font-size:1cm;
     font-size-adjust: auto; 
+    font-family:inherit;
+    
 }
