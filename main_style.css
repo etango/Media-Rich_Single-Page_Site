@@ -99,8 +99,9 @@ body{
 }
 
 #video_1{
-    text-align: center;
-    position: relative;
+   display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #sw_tank{
@@ -114,8 +115,9 @@ body{
 }
 
 #picture{
-    text-align: center;
-    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;;
 }
 
 /* modernizr*/
