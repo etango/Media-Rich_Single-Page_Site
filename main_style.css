@@ -98,8 +98,22 @@ body{
     color:black;
 }
 
+#video_1{
+    text-align: center;
+    position: relative;
+}
+
 #sw_tank{
     width:560;
     height:315;
-    
+}
+
+#reef{
+    width:520;
+    height:240;
+}
+
+#picture{
+    text-align: center;
+    position: relative;
 }
