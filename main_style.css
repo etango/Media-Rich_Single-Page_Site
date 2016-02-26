@@ -117,3 +117,35 @@ body{
     text-align: center;
     position: relative;
 }
+
+/* modernizr*/
+
+ul {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+li {
+  color: green
+}
+
+.no-audio li.audio {
+  color: red;
+}
+
+.no-bgsizecover li.bgsizecover {
+  color: red;
+}
+
+.no-flexbox li.flexbox {
+  color: red;
+}
+
+.no-srcdoc li.srcdoc {
+  color: red;
+}
+
+.no-setclasses li.setclasses {
+  color: red;
+}
