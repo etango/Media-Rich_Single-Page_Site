@@ -98,7 +98,7 @@ body{
     color:black;
 }
 
-#video_1{
+.video_1{
    display:flex;
     align-items: center;
     justify-content: center;
@@ -114,7 +114,7 @@ body{
     height:240;
 }
 
-#picture{
+.picture{
     display:flex;
     align-items: center;
     justify-content: center;;
@@ -122,32 +122,17 @@ body{
 
 /* modernizr*/
 
-ul {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
+
+.no-audio .music {
+    
 }
 
-li {
-  color: green
+.no-flexbox .picture {
+    text-align: center;
+    position: relative;
 }
 
-.no-audio li.audio {
-  color: red;
-}
-
-.no-bgsizecover li.bgsizecover {
-  color: red;
-}
-
-.no-flexbox li.flexbox {
-  color: red;
-}
-
-.no-srcdoc li.srcdoc {
-  color: red;
-}
-
-.no-setclasses li.setclasses {
-  color: red;
+.no-flexbox .video_1{
+    text-align: center;
+    position: relative;
 }
