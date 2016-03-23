@@ -53,9 +53,10 @@ Custom css style code for main.html
 */
 
 body{
-    background-image:url(reef.png);
-    background-size:cover;
-    background-repeat: no-repeat;
+    
+    background-image: url(reef.png);
+    
+    
     
     
 }
@@ -69,7 +70,7 @@ body{
     padding-bottom: .5em;
     font-size:1cm;
     font-size-adjust: auto; 
-    font-family:inherit;
+    font-family: 'Roboto Slab', serif;
     font-weight:bold;
 
     
@@ -86,7 +87,7 @@ body{
 #header{
     text-align: center;
     position: relative;
-    font-family:monospace;
+    font-family: 'Roboto Slab', serif;
     font-size:3em;
     font-weight: bold;
     color:mediumblue;
@@ -94,7 +95,7 @@ body{
 
 #story{
     margin-top:1em;
-    font-family: monospace;
+    font-family: 'EB Garamond',serif;
     font-weight:bold;
     font-size:1.5em;
     color:black;
@@ -122,6 +123,37 @@ body{
     justify-content: center;;
 }
 
+/*media queries*/
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px){
+    #story{
+        margin-left:auto;
+        margin-right:auto;
+      
+    }
+
+}
+
+@media only screen and (max-device-width:400px){
+    #heading{
+        margin-left:auto;
+        margin-right:auto;
+       
+    }
+    
+        #sw_tank{
+        margin-left:auto;
+        margin-right:auto;
+        width:auto;
+        height:auto;
+    }
+    
+    #header{
+        
+    }
+}
+
 /* modernizr*/
 
 
@@ -138,3 +170,4 @@ body{
     text-align: center;
     position: relative;
 }
+
