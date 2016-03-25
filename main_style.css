@@ -54,7 +54,7 @@ Custom css style code for main.html
 
 body{
     
-    background-image: url(ree_test.jpg);
+    background-image: url(reef.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -90,7 +90,7 @@ body{
     text-align: center;
     position: relative;
     font-family: 'Roboto Slab', serif;
-    font-size:3em;
+    font-size:3.998em;
     font-weight: bold;
     color:mediumblue;
 }
@@ -99,7 +99,7 @@ body{
     margin-top:1em;
     font-family: 'EB Garamond',serif;
     font-weight:bold;
-    font-size:1.5em;
+    font-size:1.999em;
     color:black;
 }
 
