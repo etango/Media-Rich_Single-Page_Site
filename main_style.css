@@ -157,18 +157,12 @@ body{
     }
 }
 
-/* modernizr*/
 
-
-.no-audio .music {
-    
+.no-audio #music {
+    display:none;
 }
 
-.no-flexbox .picture {
-    
-}
-
-.no-flexbox .video_1{
-   
+.video_1{
+    display:none;   
 }
 
