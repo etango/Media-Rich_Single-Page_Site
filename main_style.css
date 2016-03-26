@@ -103,7 +103,7 @@ body{
     color:black;
 }
 
-.video_1{
+.video{
    display:flex;
     align-items: center;
     justify-content: center;
@@ -111,25 +111,18 @@ body{
 
 #sw_tank{
     margin-top:1em;
-    width:560;
-    height:315;
+    width:480px;
+    height:340px;
 }
 
-#reef{
-    width:520;
-    height:240;
-}
 
-.picture{
-    display:flex;
-    align-items: center;
-    justify-content: center;;
-}
+
+
 
 /*media queries*/
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 640px){
+@media (max-device-width: 640px){
     #story{
         margin-left:auto;
         margin-right:auto;
@@ -138,7 +131,7 @@ body{
 
 }
 
-@media only screen and (max-device-width:400px){
+@media (max-device-width:400px){
     #heading{
         margin-left:auto;
         margin-right:auto;
@@ -162,7 +155,7 @@ body{
     display:none;
 }
 
-.video_1{
+.no-video{
     display:none;   
 }
 
